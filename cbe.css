@@ -1,0 +1,178 @@
+/* CSS for CBE Department website */
+
+/* Enter Your Custom CSS Here */
+#page-archive .page-title {
+text-transform:capitalize
+}
+
+#page-archive .page-title::before {
+content:"Department"
+}
+
+span.frontpage-large-text {
+padding-top:5px
+}
+
+ul.dpe-flexible-posts > li > a > img {
+width:25%;
+position:relative;
+float:left
+}
+
+ul.dpe-flexible-posts > li.post > a > div.title {
+width:75%;
+position:relative;
+float:right
+}
+
+div > ul.dpe-flexible-posts > li:nth-child(even) > a {
+border-top:1px solid #c1c1c1;
+border-bottom:1px solid #c1c1c1;
+padding-top:15px
+}
+
+div > ul.dpe-flexible-posts > li > a:hover {
+background-color:#f1f1f1;
+transition:.25s
+}
+
+a.btn {
+border:1px solid navy!important;
+font-weight:700
+}
+
+.h3-highlight h3 a {
+text-decoration:none
+}
+
+.h3-highlight h3 a:hover {
+text-decoration:underline
+}
+
+.h3-highlight h3.h3::after,.h3-highlight h3::after {
+content:"";
+width:45px;
+height:5px;
+display:block;
+background-color:navy;
+position:relative;
+top:5px;
+margin-top:2px
+}
+
+.h3-highlight h3.h3:hover::after,.h3-highlight h3:hover::after {
+transition:.25s;
+background-color:navy;
+width:100px
+}
+
+/* bread crumbs */
+.breadcrumb {
+background-color:transparent
+}
+
+/* featured news */
+#pgc-wi6oy4gxjzig-1-2 > div.uctoday-plugin > div.uctoday-list-item > div.uctoday-img-container,#pgc-wi6oy4gxjzig-1-2 > div.uctoday-plugin > div.uctoday-list-item > div.uctoday-title-container {
+width:50%
+}
+
+#pgc-wi6oy4gxjzig-1-2 > div.uctoday-plugin > div.uctoday-list-item > div.uctoday-img-container {
+float:left;
+position:relative
+}
+
+#pgc-wi6oy4gxjzig-1-2 > div.uctoday-plugin > div.uctoday-list-item > div.uctoday-title-container {
+float:right;
+padding:5px!important;
+position:relative
+}
+
+#pgc-wi6oy4gxjzig-1-2 div.uctoday-plugin div.uctoday-list-item {
+display:block;
+min-height:200px;
+width:100%;
+padding:10px
+}
+
+#pgc-wi6oy4gxjzig-1-2 div.uctoday-plugin div.uctoday-list-item div.uctoday-title-container a.uctoday-cell-title {
+font-size:20px!important
+}
+
+.btn {
+border:1px solid navy
+}
+
+/* end featured news */
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
+line-height:1.2em!important
+}
+
+.home #content .panel-grid .widget.widget_dpe_fp_widget .dpe-flexible-posts li.has-post-thumbnail a img.attachment-thumbnail {
+height:150px;
+width:150px
+}
+
+span.frontpage-large-text {
+font-size:3rem
+}
+
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
+line-height:1em
+}
+
+.explore-cbe-cells {
+padding:10px;
+background-color:#fff
+}
+
+.rockwell-txt * {
+font-family:Rockwell,Times,"Times New Roman",arial,helvetica,sans-serif;
+font-weight:700
+}
+
+div.news-grid ul {
+display:grid!important;
+grid-template-columns:1fr 1fr 1fr;
+list-style:none
+}
+
+/* recent posts */
+div.news-grid > ul > li > span.post-date {
+display:block;
+padding-bottom:1rem
+}
+
+/* footer information */
+#footers {
+background:#000e2f
+}
+
+#footers #mega-footer .widget {
+color:#fff
+}
+
+#footers #mega-footer .widget .widget-title {
+color:#fff
+}
+
+#footers #mega-footer .widget a {
+color:#fff
+}
+
+#footers #mega-footer .widget a:hover {
+color:#c1c1c1
+}
+
+#footers #footer ul li {
+color:#fff
+}
+
+#footers #footer ul li a {
+color:#fff;
+padding:0
+}
+
+#footers #footer ul li a:hover {
+color:#ccc;
+padding:0
+}
